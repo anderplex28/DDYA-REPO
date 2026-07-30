@@ -46,19 +46,26 @@ def primos(n2):
 
 def inter(n,n2):
     l = []
-    if n-1 > n2:
-        while n-1 > n2 :
+    if n > n2:
+        while n > n2 :
             n2 += 1
+            
             l.append(n2)
-    elif n2-1 > n :
-        while n2-1 > n:
+    elif n2 > n :
+        while n2 > n:
             n +=1
             l.append(n)
     elif n==n2:
         print("Son iguales")
     for i in range(0,len(l)-1):
-        suma = l[i]+l[i+1]
+        j = i+1
+        numa = l[i]+l[j]
+        suma = numa
+        
+        
+        
     print(suma)
+
 
 def main():
     n = num()
