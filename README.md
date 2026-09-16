@@ -1,1 +1,0 @@
-DDYA Anderson Varela
